@@ -6,7 +6,7 @@ const Hader = () => {
     <div className='mt-5 mx-5 md:mx-20 w-fit'>
         <div className="flex max-w-screen-xl">
           <div className="">
-          <p className='text-3xl bg-gradient-to-r from-violet-700 to-orange-500 bg-clip-text text-transparent font-semibold md:text-7xl w-full'>Let's Build Somthing amazing with GTP-3 Open AI </p>
+          <p className='text-3xl bg-gradient-to-r from-violet-700 to-orange-500 bg-clip-text text-transparent font-semibold md:text-7xl w-full'>Let&apos;s Build Somthing amazing with GTP-3 Open AI </p>
             <p className='text-gray-400 text-xs md:text-base mt-3 tracking-tight'>We&apos;ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes, challenge incorrect premises, and reject inappropriate requests.
             </p>
           </div>
