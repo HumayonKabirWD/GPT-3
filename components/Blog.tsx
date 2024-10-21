@@ -11,14 +11,14 @@ const Blog = () => {
             <div className="flex flex-col md:flex-row">
 
             <div className='flex-[0.75] mr-8 py-20 '>
-                <Article img='blog01.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset' />
+                <Article img='/blog01.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset' />
             </div>
             
             <div className="flex-1 grid grid-cols-2 gap-10">
-                    <Article img='blog01.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
-                    <Article img='blog02.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
-                    <Article img='blog03.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
-                    <Article img='blog04.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
+                    <Article img='/blog01.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
+                    <Article img='/blog02.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
+                    <Article img='/blog03.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
+                    <Article img='/blog04.png' date='24 sep 2024' text='GPT-3 And Open AI is the most powerfull thing even exiset'/>
             </div>
             </div> 
         </div>

@@ -16,7 +16,7 @@ const Article = (
     <div>
         <div className="bg-black">
             <div>
-                <Image src={img} alt="image" />
+                <Image width={500} height={50} src={img} alt="image" />
             </div>
             <div className='p-2'>
                 <p className='text-sm'>{date}</p>
