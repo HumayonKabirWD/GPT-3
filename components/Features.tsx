@@ -29,7 +29,7 @@ const Features = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               {featureData.map((item,index)=>(
-                <Featere title={item.title}  text={item.text}/>
+                <Featere title={item.title}  text={item.text} key={index}/>
                 ))}
             </div>
         </div>

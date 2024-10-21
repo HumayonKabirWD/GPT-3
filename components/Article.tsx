@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Article = (
@@ -6,16 +7,16 @@ const Article = (
         date,
         text,
     }:{
-        img:string;
-        date:string;
-        text:string;
+        img:string,
+        date:string,
+        text:string,
     }
 ) => {
   return (
     <div>
         <div className="bg-black">
             <div>
-                <img src={img} alt="blog" />
+                <Image src={img} alt="image" />
             </div>
             <div className='p-2'>
                 <p className='text-sm'>{date}</p>

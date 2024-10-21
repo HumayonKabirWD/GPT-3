@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { RiCloseFill, RiMenu3Line } from 'react-icons/ri';
+import Image from 'next/image';
 const Navbar = () => {
   const  [toggleManu, setToggleManu] = useState(false);
 
@@ -20,7 +21,7 @@ const Navbar = () => {
       <div className="flex items-center justify-around lg:px-[6rem] px-[1rem] py-[1rem]">
         <div className="flex flex-1 justify-start items-center">
           <Link href="/" className="md:mr-[4rem]">
-            <img className='h-5 md:h-6' src="/logo.svg" alt="logo" />
+            <Image className='h-5 md:h-6' src="/logo.svg" alt="logo" />
           </Link>
           <div className="space-x-3 lg:space-x-7 ml-9 md:text-sm text-xs font-semibold  md:block hidden">
             <Manue />
