@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
+import ai from '../public/ai.png'
+import people from '../public/people.png'
 
 const Hader = () => {
   return (
@@ -11,7 +13,7 @@ const Hader = () => {
             </p>
           </div>
           <div className="hidden md:block">
-            <Image height={500} width={1500} src="/ai.png" alt="ai" />
+            <Image  src={ai} alt="ai" />
           </div>  
         </div>
         <div className="mt-5 md:mt-7 flex gap-8">
@@ -20,11 +22,11 @@ const Hader = () => {
         </div>
         <div className="mt-5 sm:flex">
           <div className="flex items-center justify-center">
-            <Image width={150} height={20} src="/people.png" alt="people" />
+            <Image  src={people} alt="people" />
           </div>
           <p className='text-gray-500 mt-4 md:mt-0 bg-black mx-0 md:mx-3 rounded-sm items-center flex '>1000+ people geting started and request to join last 24 hours</p>
           <div className="flex md:hidden items-center justify-center">
-            <Image width={500} height={1500}  src="/ai.png" alt="ai" />
+            <Image src={ai} alt="ai" />
           </div>
         </div>
     </div>

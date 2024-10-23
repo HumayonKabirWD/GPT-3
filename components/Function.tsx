@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
+import poss from '../public/possibility.png'
 
 const Function = () => {
   return (
     <div className='mt-20 lg:mt-20 grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40' id='function'>
         <div >
-            <Image width={400} height={0} className='h-[30rem]'src="/possibility.png" alt="Possibility" />
+            <Image  className='h-[400px] lg:h-[500px]'src={poss} alt="Possibility" />
         </div>
         <div className="flex items-center justify-center">
             <div className="flex flex-col mt-10 md:mt-0 p-5">

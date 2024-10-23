@@ -10,7 +10,7 @@ import WhatGPT3 from "@/components/WhatGPT3";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container mx-auto">
       <Hader/>
       <Brand/>
       <WhatGPT3/>
